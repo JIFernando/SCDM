@@ -56,6 +56,10 @@ a h1{
     color:  #fff;
 }
 
+h2{
+    text-align: center;
+}
+
 #top .container{
     display: table;    
 }
