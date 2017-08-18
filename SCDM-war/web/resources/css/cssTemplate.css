@@ -179,3 +179,22 @@ bottom .container{
     margin-top: 69px;
     margin-bottom: 20px;
 }
+
+/*/////////////////////////////////////////////////*/
+
+/*/////////////////////////Filter Disease/////////////////////*/
+
+.inputFilter{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; 
+}
+
+.diseases{
+    margin: 20px;
+}
+
+.disease{
+    border-top: 1px solid #ccc;
+    padding-bottom: 20px; 
+}
