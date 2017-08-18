@@ -58,6 +58,8 @@ a h1{
 
 h2{
     text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; 
 }
 
 #top .container{
@@ -186,7 +188,6 @@ bottom .container{
 
 .inputFilter{
     text-align: center;
-    border-bottom: 1px solid #ccc;
     padding-bottom: 20px; 
 }
 
