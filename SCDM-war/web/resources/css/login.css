@@ -4,9 +4,10 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 20-abr-2016, 12:02:50
-    Author     : Jotadrive
+    Created on : 11-ago-2017, 13:25:36
+    Author     : Fernando Jiménez Iglesias
 */
+/*
 body{
     background: url('./resources/images/sky-62732_1920.jpg') fixed no-repeat; 
     background-size: cover; 
@@ -16,7 +17,7 @@ body{
     height: 100%;
     width:100%;
 }
-
+*/
 /*Formulario*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
@@ -25,7 +26,7 @@ body{
     padding: 8% 0 0;
     margin: auto;
 }
-.form {
+.form-login-page {
     position: relative;
     z-index: 1;
     background: #FFFFFF;
@@ -35,7 +36,7 @@ body{
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.4);
 }
-.box {
+.box-login {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
@@ -53,60 +54,60 @@ body{
     outline: none;
     border: 1px solid #DDDDDD;
 }
-.box:focus {
+.box-login:focus {
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
     border: 1px solid rgba(81, 203, 238, 1);
 }
 
-.form button:hover,.form button:active,.form button:focus {
+.form-login-page button:hover,.form-login-page button:active,.form-login-page button:focus {
     background: #43A047;
     -webkit-transition-duration: 0.45s !important;
     transition-duration: 0.45s !important;
 }
 
-.form .message {
+.form-login-page .message {
     margin: 15px 0 0;
     color: #b3b3b3;
     font-size: 12px;
 }
-.form .message a {
+.form-login-page .message a {
     color: #4CAF50;
     text-decoration: none;
 }
-.form .register-form {
+.form-login-page .register-form {
     display: none;
 }
-.container {
+.container-login {
     position: relative;
     z-index: 1;
     max-width: 300px;
     margin: 0 auto;
 }
-.container:before, .container:after {
+.container-login:before, .container-login:after {
     content: "";
     display: block;
     clear: both;
 }
-.container .info {
+.container-login .info {
     margin: 50px auto;
     text-align: center;
 }
-.container .info h1 {
+.container-login .info h1 {
     margin: 0 0 15px;
     padding: 0;
     font-size: 36px;
     font-weight: 300;
     color: #1a1a1a;
 }
-.container .info span {
+.container-login .info span {
     color: #4d4d4d;
     font-size: 12px;
 }
-.container .info span a {
+.container-login .info span a {
     color: #000000;
     text-decoration: none;
 }
-.container .info span .fa {
+.container-login .info span .fa {
     color: #EF3B3A;
 }
 .placeholder {

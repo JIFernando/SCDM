@@ -128,7 +128,7 @@ h1{
 /*/////////////////////////Footer/////////////////////*/
 
 #bottom{    
-    padding: 60px;
+    padding: 10px;
 }
 
 bottom .container{
@@ -167,6 +167,6 @@ bottom .container{
     position: relative;
     background-color: #dddddd;
     padding: 5px;
-    margin-top: 66px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
