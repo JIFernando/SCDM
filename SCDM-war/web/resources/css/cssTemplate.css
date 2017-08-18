@@ -51,6 +51,11 @@ h1{
     margin: 0;
 }
 
+a h1{
+    text-decoration: none;
+    color:  #fff;
+}
+
 #top .container{
     display: table;    
 }
@@ -167,6 +172,6 @@ bottom .container{
     position: relative;
     background-color: #dddddd;
     padding: 5px;
-    margin-top: 80px;
+    margin-top: 69px;
     margin-bottom: 20px;
 }
